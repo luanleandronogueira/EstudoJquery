@@ -55,7 +55,36 @@
                             <li><strong>Sessão de Abertura: </strong>02/01/2024</li>
                             <li><strong>Horário: </strong> 09:00</li>
                           </p>
-                          <a href="#" class="btn btn-success">Ver Editais</a> <---- Editais Externos ---->
+                          <!-- Botão da Janela Modal -->
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Ver Editais
+                          </button>
+
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Editais - PROCESSO 001/2024 CPL/G - PREGÃO ELETRÔNICO</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <h5>Informações ou Editais</h5>
+                                  <ul>
+                                      <li><a href="">Edital de abertura para o pregão eletrônico</a></li>
+                                      <li><a href="">Lista dos inscritos para a sessão de abertura</a></li>
+                                      <li><a href="">Lista de espera em caso de desistência</a></li>
+                                      <li><a href="">Convocação da lista de espera</a></li>
+                                  </ul>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
                         </div>
                       </div>
 
